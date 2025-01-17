@@ -94,8 +94,14 @@ nav ul li a:hover {
     color: #FF900E;
     transition: 0.25s ease-in-out;
 }
-.banner .hero {
-    
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
 }
 
 
