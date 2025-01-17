@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    line-height: 26px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.center {
+    text-align: center;
+}
+
+.dark1 {
+    color: #131313;
+}
+.dark2 {
+    color: #424242;
+}
+.dark3 {
+    color: #727272;
+}
+.orange {
+    color: #FF900E;
+}
+
+/* Header and CSS */
+
+header {
+    background-color: #ff8f0e22;
+    padding: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3 {
+    font-weight: bold;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li a {
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #FF900E;
+}
+
+/* Banner CSS */
+
+.banner {
+    max-width: 862px;
+}
+.banner h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 80px 0 25px 0;
+}
+.banner button {
+    margin-top: 35px;
+    padding: 15.5px 25px 14.5px 25px;
+    background-color: #FF900E;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.banner button:hover {
+    background-color: #fff;
+    color: #FF900E;
+    transition: 0.25s ease-in-out;
+}
+.banner .hero {
+    
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }  
+
